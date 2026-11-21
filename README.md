@@ -24,7 +24,7 @@ bash-scripts/
 
 ```bash
 # 1. Clonar en carpeta oculta
-git clone https://github.com/Luinux81/bash-scripts.git ~/.scripts-repo
+git clone https://github.com/LBCDev-Libs/bash-scripts.git ~/.scripts-repo
 
 # 2. Crear enlaces simbólicos según necesites
 ln -s ~/.scripts-repo/laravel/security-check.sh /usr/local/bin/laravel-security-check
@@ -46,7 +46,7 @@ cd ~/.scripts-repo && git pull
 ### Opción 2: Instalación Local Completa
 
 ```bash
-git clone https://github.com/Luinux81/bash-scripts.git
+git clone https://github.com/LBCDev-Libs/bash-scripts.git
 cd bash-scripts
 find . -name "*.sh" -exec chmod +x {} \;
 ```
@@ -57,7 +57,7 @@ find . -name "*.sh" -exec chmod +x {} \;
 
 ```bash
 # Descargar un script específico
-curl -O https://raw.githubusercontent.com/Luinux81/bash-scripts/main/system/show-selected-files.sh
+curl -O https://raw.githubusercontent.com/LBCDev-Libs/bash-scripts/main/system/show-selected-files.sh
 chmod +x show-selected-files.sh
 ```
 
