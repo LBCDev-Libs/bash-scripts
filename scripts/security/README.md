@@ -78,7 +78,7 @@ Para usar este script en múltiples servidores de producción:
 ```bash
 # 1. Clonar el repositorio en tu VPS
 ssh usuario@tu-vps.com
-git clone https://github.com/Luinux81/bash-scripts.git ~/.scripts-repo
+git clone https://github.com/LBCDev-Libs/bash-scripts.git ~/.scripts-repo
 
 # 2. Crear enlace simbólico
 mkdir -p ~/bin
