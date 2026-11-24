@@ -17,6 +17,7 @@ fi
 
 # Leer de stdin y copiar al portapapeles
 # Eliminar códigos de color ANSI antes de copiar
-sed 's/\x1b\[[0-9;]*m//g' | xclip -selection clipboard
+set -o pipefail
+sed 's/\x1b\[[0-9;]*m//g' | xclip -selection clipboard || exit "$?"
 
 echo "✅ Contenido copiado al portapapeles!" >&2
